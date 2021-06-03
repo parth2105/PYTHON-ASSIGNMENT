@@ -1,0 +1,56 @@
+QUES 1:-From this given string: s = "Hey i am from New Delhi". Find out: length of string, convert this to list using split operation.
+a="Hey i am from New Delhi"
+print(len(a))
+#question 2  Given string s = "name is rahul". Write code to give following o/p.
+- "Name is rahul"
+-  "Rame Is Rahul"
+-  "NAME IS RAHUL"
+s = "name is rahul"
+b='N'+s[1:]
+print(b)
+print(s.upper()) 
+QUES 3:- Using length and breadth as input find out area and perimeter of a given rectangle.
+a=int(input())
+b=int(input())
+print("parimeter=",2*(a+b))
+print("area=",a*b) 
+QUES4:-. Using diameter as input find out circumference and area of a circle.
+d=int(input())
+print("circumference=",d*3.14)
+print("area=",d/2*3.14  
+QUES 5:- Write a program to compute roots of a quadratic equation when coefficients a, b and c are known(entered by user).
+a=int(input())
+b=int(input())
+c=int(input())
+d = b * b - 4 * a * c
+import math
+sqrt_val =math.sqrt(d)
+print((-b + sqrt_val)/(2 * a))
+print((-b - sqrt_val)/(2 * a))
+QUES 6:-. Find volume of a sphere using radius as input.
+r=int(input())
+pi=3.14
+v=4/3*pi*r**3
+print("volume of sphere=",v) n=int(input())
+Q7. Count the  number of digits in a number. Example: 3454 has 4 digits.
+n = str(n) num = int(input())
+count = 0
+
+while num != 0:
+    num //= 10
+    count += 1
+print("Number of digits: " + str(count)) a = "Hello World"[::-1]
+print(a)  
+ 
+Q8. Write a program that accepts a string and gives output string with all capital letters.
+string = "parth"
+print(string.upper()) string=int(input())
+print(string.upper(string))
+#question 9 Write a program to that accepts a string s, an index number n and a character ‘c’. And outputs the string replaced with the character at the index number n. Example- ‘hello’ , 0 , ‘j’ ==> ‘jello’.
+(Hint2: You can try it by join function too by typecasting it to list)
+a="hello"
+b='j'+a[1:]
+print(b)
+Q10. Reverse a string. Example: 'Hey there' = 'ereht yeH' 
+a = "PARTH CHUCHRA"[::-1]
+print(a)
